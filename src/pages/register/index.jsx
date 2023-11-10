@@ -1,7 +1,7 @@
 import { Container, Paper, TextField, Typography, Button } from "@mui/material";
 import BusinessIcon from '@mui/icons-material/Business';
 import { useEffect, useState } from "react";
-import { useAuth } from "@context/auth";
+import { useAuth } from "../../context/auth";
 
 
 export default function RegisterPage() {

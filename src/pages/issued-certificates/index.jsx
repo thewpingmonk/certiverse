@@ -1,8 +1,8 @@
-import { useAuth } from "@context/auth";
+import { useAuth } from "../../context/auth";
 import { Button, CircularProgress, FormControl, FormControlLabel, FormLabel, Paper, Radio, RadioGroup, TextField, Typography, Card, CardActions, CardMedia } from "@mui/material";
 import { useState } from "react";
 import useSWRMutation from "swr/mutation";
-import { GetIpfsUrlFromPinata } from "@utils";
+import { GetIpfsUrlFromPinata } from "../../utils";
 import axios from "axios";
 
 export default function IssuedCertificatesPage() {
